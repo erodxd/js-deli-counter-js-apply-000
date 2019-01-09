@@ -9,6 +9,7 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
       return `Currently serving ${katzDeliLine.shift()}.`
     } else {
         return "There is nobody waiting to be served!"
+    }
   }
   
   
