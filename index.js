@@ -1,6 +1,6 @@
 const takeANumber = (katzDeliLine, newCustomerName) => {
   katzDeliLine.push(newCustomerName);
-  return 
+  return `Welcome, ${newCustomerName}. You are ${katzDeliLine} in line.` 
   
   for (let i = 0; i < katzDeliLine.length; ++i) {
     var currentElement = katzDeliLine[i];
@@ -8,7 +8,7 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
     if (currentElement < currentNumber) {
       currentNumber++;
       
-    return `Welcome, ${newCustomerName}. You are ${currentNumber} in line.`
+    
       }
     }
   }
