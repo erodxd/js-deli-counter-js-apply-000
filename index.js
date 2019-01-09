@@ -12,7 +12,7 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
     }
   }
   
-  const currentLine = () => {
+  const currentLine = (katzDeliLine) => {
     
   }
   
