@@ -4,7 +4,7 @@ const takeANumber = (currentLine, newCustomerName) => {
   for (let i = 0; i < currentLine.length; ++i) {
     let currentElement = currentLine[i];
     
-    if (currentElement)
+    if (currentElement === )
   }
   
   return `Welcome, ${newCustomerName}. You are ${currentNumber} in line.`
