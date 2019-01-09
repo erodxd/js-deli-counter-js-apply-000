@@ -7,10 +7,13 @@ const takeANumber = (currentLine, newCustomerName = "") => {
     if (currentElement < currentNumber) {
       currentNumber++;
       
+    return `Welcome, ${newCustomerName}. You are ${currentNumber} in line.`
+      }
     }
   }
   
-  const 
+  const nowServing = () => {
+    
+  }
   
-  return `Welcome, ${newCustomerName}. You are ${currentNumber} in line.`
-}
+  
