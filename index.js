@@ -16,7 +16,9 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
     let customerInLine = [];
     
     if (katzDeliLine > ['']) {
-      
+      for (let i = 0; i < katzDeliLine.length; ++i) {
+        
+      }
     }
   }
   
