@@ -13,6 +13,6 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
   }
   
   const currentLine = (katzDeliLine) => {
-    
+    const 
   }
   
