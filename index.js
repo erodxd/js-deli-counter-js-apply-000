@@ -1,5 +1,6 @@
 const takeANumber = (katzDeliLine, newCustomerName) => {
-  katzDeliLine.push()
+  katzDeliLine.push(newCustomerName);
+  return 
   
   for (let i = 0; i < katzDeliLine.length; ++i) {
     var currentElement = katzDeliLine[i];
