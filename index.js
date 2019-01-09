@@ -8,7 +8,7 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
     if (katzDeliLine > ['']) {
       return `Currently serving ${katzDeliLine.shift()}.`
     } else {
-        return 
+        return "There is nobody waiting to be served."
   }
   
   
