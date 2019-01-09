@@ -20,7 +20,9 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
         return `The line is currently: ${++i}. ${katzDeliLine[i]}`;
       }
     } else {
-      return 
+      return "The line is currently empty.";
+
+
     }
   }
   
