@@ -15,6 +15,6 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
   const currentLine = (katzDeliLine) => {
     let customerInLine = [];
     
-    
+    if (katzDeliLine)
   }
   
