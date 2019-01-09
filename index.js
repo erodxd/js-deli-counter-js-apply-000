@@ -1,8 +1,8 @@
-const takeANumber = (currentLine, newCustomerName = "") => {
+const takeANumber = (katzDeliLine, newCustomerName = "") => {
   var currentNumber = 0;
   
-  for (let i = 0; i < currentLine.length; ++i) {
-    var currentElement = currentLine[i];
+  for (let i = 0; i < katzDeliLine.length; ++i) {
+    var currentElement = katzDeliLine[i];
     
     if (currentElement < currentNumber) {
       currentNumber++;
