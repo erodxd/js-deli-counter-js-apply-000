@@ -1,8 +1,8 @@
 const takeANumber = (currentLine, newCustomerName = "") => {
-  let currentNumber = 0;
+  var currentNumber = 0;
   
   for (let i = 0; i < currentLine.length; ++i) {
-    let currentElement = currentLine[i];
+    var currentElement = currentLine[i];
     
     if (currentElement < currentNumber) {
       currentNumber++;
