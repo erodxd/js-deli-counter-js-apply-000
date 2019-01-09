@@ -17,7 +17,7 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
     
     if (katzDeliLine > ['']) {
       for (let i = 0; i < katzDeliLine.length; ++i) {
-        customerInLine.push return `The line is currently: ${i+1}. ${katzDeliLine[i]}`;
+        customerInLine.push(`The line is currently: ${i+1}. ${katzDeliLine[i]}`);
       }
     } else {
       return "The line is currently empty.";
