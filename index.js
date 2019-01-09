@@ -6,7 +6,7 @@ const takeANumber = (katzDeliLine, newCustomerName) => {
   
   const nowServing = (katzDeliLine) => {
     if (katzDeliLine > ['']) {
-      return 
+      return `Currently serving 
     }
   }
   
