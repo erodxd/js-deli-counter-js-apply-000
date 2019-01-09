@@ -1,4 +1,4 @@
-const takeANumber = (katzDeliLine, newCustomerName = "") => {
+const takeANumber = (katzDeliLine, newCustomerName) => {
   var currentNumber = 0;
   
   for (let i = 0; i < katzDeliLine.length; ++i) {
